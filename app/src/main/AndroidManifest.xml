@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="todamujer.utsjr.com.todamujer" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Gruas Barrón"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Gruas Barrón" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmergenciasActivity"
+            android:label="Emergencias" >
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:label="Inicio" >
+        </activity>
+        <activity
+            android:name=".DetalleEmergenciaActivity"
+            android:label="Tipo de Emergencia" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".MapaActivity"
+            android:label="Mapa" >
+        </activity>
+        <activity
+            android:name=".CalendarioActivity"
+            android:label="Llamada" >
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="Tips" >
+        </activity>
+        <activity
+            android:name=".DetalleTipsActivity"
+            android:label="Tips para ti" >
+        </activity>
+        <activity
+            android:name=".DetalleMapaActivity"
+            android:label="Ubicanos" >
+        </activity>
+        <activity
+            android:name=".AgregarNotaActivity"
+            android:label="@string/title_activity_agregar_nota" >
+        </activity>
+        <activity
+            android:name=".DetalleNotaActivity"
+            android:label="@string/title_activity_detalle_nota" >
+        </activity>
+        <activity
+            android:name=".ModificarNotaActivity"
+            android:label="@string/title_activity_modificar_nota" >
+        </activity>
+        <activity
+            android:name=".Nota_Activity"
+            android:label="@string/title_activity_nota_" >
+        </activity>
+        <activity
+            android:name=".Ayuda"
+            android:label="Ayuda" >
+        </activity>
+        <activity
+            android:name=".Ayuda2"
+            android:label="Ayuda" >
+        </activity>
+    </application>
+
+</manifest>

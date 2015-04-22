@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondomenu"
+
+    tools:context="todamujer.utsjr.com.todamujer.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/m"
+            android:id="@+id/BtnMapa"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/e"
+            android:id="@+id/BtnEmergencias"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Mapa"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#e7000000"
+            />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Emergencias"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#e7000000"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/ll"
+            android:id="@+id/BtnLlamada"
+            />
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/t"
+            android:id="@+id/BtnTips"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Llamada"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#e7000000"
+            />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#e7000000"
+            />
+
+
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

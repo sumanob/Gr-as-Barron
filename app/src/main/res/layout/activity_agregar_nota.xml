@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="#CC0066"
+    tools:context="todamujer.utsjr.com.todamujer.AgregarNotaActivity"
+    android:backgroundTint="#ff1495fd">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LblAgregarTitulo"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtTitulo"
+        android:inputType="text"
+        android:hint="@string/NotaTitulo"
+        android:textColorHint="#ffffffff"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtFecha"
+        android:inputType="datetime"
+        android:hint="@string/NotaFecha"
+        android:textColorHint="#ffffffff"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtNota"
+        android:inputType="text"
+        android:hint="@string/Nota"
+        android:textColorHint="#ffffffff"
+        android:textColor="#fff"
+        />
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/BtnRegistrar"
+            android:text="@string/btnRegistrar"
+            android:textColor="#FFF"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnRegresar"
+            android:text="@string/btnRegresar"
+            android:textColor="#FFF"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

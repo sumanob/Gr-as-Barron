@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff1495fd"
+    tools:context="todamujer.utsjr.com.todamujer.ModificarNotaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LblModificarTitulo"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtTitulo"
+        android:inputType="text"
+        android:textColor="#FFF"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtFecha"
+        android:inputType="datetime"
+        android:textColor="#FFF"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtNota"
+        android:inputType="text"
+        android:textColor="#FFF"
+        />
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ModificarBtnRegistrar"
+            android:text="@string/ModificarbtnGuardar"
+            android:textColor="#FFF"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ModificarBtnRegresar"
+            android:text="@string/ModificarbtnRegresar"
+            android:textColor="#FFF"
+            />
+    </LinearLayout>
+
+</LinearLayout>
